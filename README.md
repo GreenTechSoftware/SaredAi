@@ -1,56 +1,45 @@
-# Sared AI: Empowering Local Egyptian Dialects & Heritage through GenAI
+# TechSwarm 🚀
 
-### ⚠️ PROPRIETARY & PUBLIC PROTOTYPE NOTICE
-> **Important:** This public repository contains only the initial open-source prototype and Minimum Viable Product (MVP) architecture of **Sared AI**. The core production engines, proprietary datasets, and commercial fine-tuning pipelines remain hosted in a secured, private repository. 
+> The next-generation circular recommerce platform powered by AI and multi-party device swapping algorithms.
 
----
+## About TechSwarm
 
-**Sared AI** (سَارد) is an innovative, localized Generative AI ecosystem designed specifically for the Egyptian market. Built as a scalable SaaS framework, Sared bridges the gap between state-of-the-art Large Language Models (LLMs) and rich cultural nuances. It provides on-demand custom AI assistants, cultural mapping, and location-based interactive experiences.
+**TechSwarm** is an innovative platform designed to solve the liquidity and friction issues in the used electronics market. Instead of traditional one-to-one selling, TechSwarm leverages a smart **Circular Matching Algorithm (The Swarm)** to orchestrate multi-party device trades (e.g., User A trades for B, B for C, and C for A seamlessly). 
 
----
-
-## 🚀 Core Features (Public MVP Scope)
-
-### 1. On-Demand Custom AI Assistants (B2B & B2C)
-* **Hyper-Localized LLMs:** Fine-tuned open-source models (such as Llama 3/Mistral) designed to perfectly comprehend and generate everyday Egyptian Arabic (Cairene, Upper Egyptian/Sa'idi, coastal, and rural dialects).
-* **Enterprise-Ready:** Tailored, domain-specific assistants trained on proprietary business data for customer service, legal, or medical support.
-
-### 2. Kemet Maps (Ancient Egyptian Chrono-Mapping)
-* **Time-Slice Navigation:** An interactive map interface transforming modern Egyptian geography into Ancient Egyptian provinces (The 42 Nomes).
-* **AI Historical Guides:** Context-aware, generative historical personas acting as real-time tour guides using GPS coordinates.
-
-### 3. The Sa'idi Dialect Identifier & Companion
-* **Dialect Classifier:** Advanced audio and text analysis capable of pinpointing the specific Upper Egyptian governorate or city of origin (e.g., Luxor, Qena, Asyut) based on phonetics and vocabulary.
-* **Cultural Persona:** A wise, witty assistant built with a native Sa'idi persona to offer localized advice, cultural folklore translation, and regional storytelling.
-
-### 4. "Souls of the South" (Location-Based AR Game)
-* **Real-World Geography:** An interactive, augmented reality (AR) gamification layer mapping historical quests onto the main streets of Southern Egyptian cities (e.g., Minya, Sohag, Aswan).
-* **Generative NPCs:** Real-world street navigation triggers interactions with historical AR characters powered by Sared's localized LLM. Players must converse, negotiate, and solve riddles using regional dialects to unlock rewards.
+Our mission is to extend the lifecycle of consumer electronics, reduce e-waste, and make hardware upgrades accessible through collaborative asset swapping.
 
 ---
 
-## 🛠️ The Tech Stack
+## Key Features
 
-### Machine Learning & LLM Fine-Tuning
-* **Base Models:** Llama-3-8B, Mistral-7B, Gemma
-* **Optimization Libraries:** `Unsloth`, `PEFT`, `LoRA` (Low-Rank Adaptation)
-* **Audio Processing:** `OpenAI Whisper` (for Dialect transcription), `Demucs` (for audio source separation)
-* **Frameworks:** PyTorch, Hugging Face Transformers
-
-### Application & Geospatial Layer
-* **Frontend/Mobile:** Flutter (Cross-platform iOS/Android)
-* **Game Engine:** Unity + AR Foundation
-* **Mapping Data:** OpenStreetMap (OSM) API 
-* **Backend:** FastAPI, Python
+- **Circular Swarm Matching:** AI-driven graph algorithms that detect complex multi-party trade loops.
+- **Automated AI Grading:** Instant estimation of device conditions, market values, and functional health.
+- **Secure Centralized Escrow:** Acting as a trusted intermediary to inspect, wipe data, and safely redistribute traded devices.
+- **Sustainable Recommerce:** Promoting the circular economy by keeping electronics out of landfills.
 
 ---
 
-## 📂 Project Structure (Public Prototype Layout)
+## Tech Stack
 
-```text
-├── data_pipeline/         # Basic scripts for audio scraping and Whisper transcription tests
-├── fine_tuning/           # Public training configurations and Unsloth optimization templates
-├── datasets/              # Non-proprietary sample JSON datasets for dialect testing
-├── geo_engine/            # OpenStreetMap data parsers and public historical coordinates
-├── mobile_app/            # Prototype frontend code for Sared interface
-└── README.md              # Project documentation
+- **Frontend:** Next.js / React, Tailwind CSS
+- **Backend:** Python / FastAPI (for AI and matching algorithms)
+- **Database:** PostgreSQL
+
+---
+
+## Getting Started (Local Development)
+
+To run the landing page and MVP locally:
+
+```bash
+# Clone the repository
+git clone [https://github.com/YOUR_USERNAME/TechSwarm.git](https://github.com/YOUR_USERNAME/TechSwarm.git)
+
+# Navigate to the project directory
+cd TechSwarm
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
